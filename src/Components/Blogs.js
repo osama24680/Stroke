@@ -14,22 +14,22 @@ const Blogs = () => {
           </div>
           <div class="content">
             <div class="icon">
-              <a href="#blogs">
+              {/* <a href="#blogs">
                 <i class="fas fa-calendar"></i> 1st may, 2021
               </a>
               <a href="#blogs">
                 {" "}
                 <i class="fas fa-user"></i> by admin{" "}
-              </a>
+              </a> */}
             </div>
             <h3>blog title goes here</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident, eius.
             </p>
-            <a href="#blogs" class="btn">
+            {/* <a href="#blogs" class="btn">
               learn more <span class="fas fa-chevron-right"></span>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -39,22 +39,22 @@ const Blogs = () => {
           </div>
           <div class="content">
             <div class="icon">
-              <a href="#blogs">
+              {/* <a href="#blogs">
                 <i class="fas fa-calendar"></i> 1st may, 2021
               </a>
               <a href="#blogs">
                 {" "}
                 <i class="fas fa-user"></i> by admin{" "}
-              </a>
+              </a> */}
             </div>
             <h3>blog title goes here</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident, eius.
             </p>
-            <a href="#blogs" class="btn">
+            {/* <a href="#blogs" class="btn">
               learn more <span class="fas fa-chevron-right"></span>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -64,22 +64,22 @@ const Blogs = () => {
           </div>
           <div class="content">
             <div class="icon">
-              <a href="#blogs">
+              {/* <a href="#blogs">
                 <i class="fas fa-calendar"></i> 1st may, 2021
               </a>
               <a href="#blogs">
                 {" "}
                 <i class="fas fa-user"></i> by admin{" "}
-              </a>
+              </a> */}
             </div>
             <h3>blog title goes here</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Provident, eius.
             </p>
-            <a href="#blogs" class="btn">
+            {/* <a href="#blogs" class="btn">
               learn more <span class="fas fa-chevron-right"></span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

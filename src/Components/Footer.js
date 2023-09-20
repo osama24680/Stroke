@@ -6,7 +6,7 @@ const Footer = () => {
       <div class="box-container">
         <div class="box">
           <h3>quick links</h3>
-          <a href="#home">
+          {/* <a href="#home">
             {" "}
             <i class="fas fa-chevron-right"></i> home{" "}
           </a>
@@ -32,12 +32,12 @@ const Footer = () => {
           <a href="#blogs">
             {" "}
             <i class="fas fa-chevron-right"></i> blogs{" "}
-          </a>
+          </a> */}
         </div>
 
         <div class="box">
           <h3>our services</h3>
-          <a href="#footer">
+          {/* <a href="#footer">
             <i class="fas fa-chevron-right"></i> dental care
           </a>
           <a href="#footer">
@@ -52,12 +52,12 @@ const Footer = () => {
           </a>
           <a href="#footer">
             <i class="fas fa-chevron-right"></i> ambulance service
-          </a>
+          </a> */}
         </div>
 
         <div class="box">
           <h3>contact info</h3>
-          <a href="#">
+          {/* <a href="#">
             {" "}
             <i class="fas fa-phone"></i> +20 110 129 8422{" "}
           </a>
@@ -66,12 +66,12 @@ const Footer = () => {
           </a>
           <a href="#">
             <i class="fas fa-map-marker-alt"></i> Eg, Alex - Asafra
-          </a>
+          </a> */}
         </div>
 
         <div class="box">
           <h3>follow us</h3>
-          <a href="https://www.facebook.com/profile.php?id=100005745556269">
+          {/* <a href="https://www.facebook.com/profile.php?id=100005745556269">
             <i class="fab fa-facebook-f"></i> facebook
           </a>
           <a href="#">
@@ -80,7 +80,7 @@ const Footer = () => {
           </a>
           <a href="https://www.instagram.com/ahmed.hesham2232/">
             <i class="fab fa-instagram"></i> instagram
-          </a>
+          </a> */}
         </div>
       </div>
 

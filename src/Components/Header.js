@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <Link class="logo">
+      {/* <Link class="logo">
         <i class="uil uil-heartbeat"></i>STROCK PREDICTION
-      </Link>
+      </Link> */}
       <div id="menu-bar" class="uil uil-bars"></div>
       <nav class="navbar">
-        <Link>home</Link>
+        {/* <Link>home</Link>
         <a
           target="_blanck"
           href="https://studentaast-my.sharepoint.com/:p:/g/personal/o_m_mohamed1_student_aast_edu/EYhv8ZGJyxBAsOfOPwccpjcBQQq6le_IJ_Z2rji-AGTsSg?e=zW1dkK"
@@ -19,7 +19,7 @@ const Header = () => {
         <a href="#about">about</a>
         <a href="#doctors">doctors</a>
         <a href="#review">review</a>
-        <a href="#blogs">blogs</a>
+        <a href="#blogs">blogs</a> */}
       </nav>
     </header>
   );

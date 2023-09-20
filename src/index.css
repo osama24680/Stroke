@@ -196,19 +196,34 @@ header .navbar a:hover{
 
 }
 /* ============---------services-------========= */
-
+/* .services{
+   
+} */
+.box_allContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    flex-wrap: wrap;
+}
 .services .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+   flex-direction: column;
+   width: 49%;
+   
 }
 
 .services .box-container .box{
+    width: 95%;
     background:#fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border:var(--border);
-    padding: 2.5rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 25px;
 }
 
 .services .box-container .box i{
@@ -227,6 +242,11 @@ header .navbar a:hover{
     color: var(--light-color);
     font-size: 1.4rem;
     line-height: 2;
+}
+.services .box-container .box p svg{
+    color: var(--green);
+    font-size: 1.4rem;
+   margin-right: 7px;
 }
 /* ============---------about-------========= */
 .about .row{
@@ -581,6 +601,12 @@ header .navbar a:hover{
     section{
         padding:2rem;
     }
+    .services .box-container{
+       
+       width: 100%;
+       
+    }
+    
 
 }
 

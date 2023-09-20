@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section class="home" id="home">
-      
+
       <div class="image">
         <img src={home_img} alt="" />
       </div>
@@ -18,7 +18,7 @@ const Home = () => {
           their families. You can rely on a personal nurse to support you.
         </p>
 
-        <Link class="btn">
+        <Link to="blogs" class="btn">
           contact us
           <span>
             <AiOutlineArrowRight />
