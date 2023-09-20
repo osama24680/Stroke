@@ -1,0 +1,25 @@
+.BarCharts,
+.PieCharts {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+  margin:60px auto;
+}
+
+.BarCharts canvas,
+.PieCharts canvas {
+  width: 45% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 992px) {
+  .BarCharts canvas {
+    width: 100% !important;
+  }
+  .PieCharts canvas {
+    width: 100% !important;
+  }
+}
