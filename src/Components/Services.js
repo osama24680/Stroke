@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 const Services = () => {
   return (
     <section class="services" id="services">
@@ -14,9 +14,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
         <div class="box">
           <i class="uil uil-ambulance"></i>
@@ -25,9 +25,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
         <div class="box">
           <i class="uil uil-user-md"></i>
@@ -36,9 +36,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
         <div class="box">
           <i class="uil uil-capsule"></i>
@@ -47,9 +47,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
         <div class="box">
           <i class="uil uil-heartbeat"></i>
@@ -58,9 +58,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
         <div class="box">
           <i class="uil uil-heartbeat"></i>
@@ -69,9 +69,9 @@ const Services = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt,
             reiciendis!
           </p>
-          <a href="#services" class="btn">
+          <Link class="btn">
             learn more <span class="uil uil-arrow-right"></span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

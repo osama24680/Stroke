@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      <a href="#" class="logo">
+      <Link class="logo">
         <i class="uil uil-heartbeat"></i>STROCK PREDICTION
-      </a>
+      </Link>
       <div id="menu-bar" class="uil uil-bars"></div>
       <nav class="navbar">
-        <a href="#home">home</a>
+        <Link>home</Link>
         <a
           target="_blanck"
           href="https://studentaast-my.sharepoint.com/:p:/g/personal/o_m_mohamed1_student_aast_edu/EYhv8ZGJyxBAsOfOPwccpjcBQQq6le_IJ_Z2rji-AGTsSg?e=zW1dkK"
