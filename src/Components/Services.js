@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { AiFillPushpin, AiFillSetting } from "react-icons/ai";
 const Services = () => {
   return (

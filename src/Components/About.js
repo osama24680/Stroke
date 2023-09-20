@@ -1,5 +1,5 @@
 import React from "react";
-import about_img from "../images/about-img.png"
+import about_img from "../images/about-img.png";
 
 const About = () => {
   return (
@@ -16,18 +16,17 @@ const About = () => {
         <div class="content">
           <h3>we take care of your healthy life</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-            ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit
-            tempora ipsam qui, quisquam quis facere iste fuga, minus nesciunt.
+            Once The Patient Arrives At The Hospital With Suspected Stroke
+            Symptoms, The First Step Is To Quickly Assess The Severity Of The
+            Condition. Hospitals Have Established Stroke Teams Consisting Of
+            Neurologists, Emergency Physicians, Nurses, And Other Healthcare
+            Professionals Who Are Trained In Stroke Management. These Teams Work
+            Together To Evaluate The Patient's Symptoms, Medical History, And
+            Conduct Various Diagnostic Tests, Such As Brain Imaging Scans, To
+            Determine The Type And Cause Of The Stroke.
           </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus vero
-            ipsam laborum porro voluptates voluptatibus a nihil temporibus
-            deserunt vel?
-          </p>
-          <a href="#about" class="btn">
-            learn more <span class="fas fa-chevron-right"></span>
-          </a>
+         
+        
         </div>
       </div>
     </section>
