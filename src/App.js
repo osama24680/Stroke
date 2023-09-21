@@ -9,6 +9,7 @@ import Blogs from "./Components/Blogs.js";
 import Footer from "./Components/Footer.js";
 import BarChart from "./Components/Charts/BarChart.js";
 import PieCharts from "./Components/Charts/PieCharts.js";
+import ContactUs from "./Components/ContactUs.js";
 import poster from "./images/poster.png"
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <div className="poster">
         <img src={poster} alt=""/>
       </div>
+      <ContactUs />
       <Footer />
     </div>
   );
