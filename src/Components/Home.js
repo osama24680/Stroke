@@ -18,12 +18,12 @@ const Home = () => {
           their families. You can rely on a personal nurse to support you.
         </p>
 
-        <Link to="blogs" class="btn">
+        <a href="#ContactUs" class="btn">
           contact us
           <span>
             <AiOutlineArrowRight />
           </span>
-        </Link>
+        </a>
       </div>
     </section>
   );

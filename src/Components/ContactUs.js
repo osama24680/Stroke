@@ -53,7 +53,7 @@ const ContactUs = () => {
       >
         Contact Us
       </h2>
-      <div className="ContactUs">
+      <div className="ContactUs" id="ContactUs">
         <form onSubmit={handleSubmit}>
           <div className="doubleInput">
             <input
