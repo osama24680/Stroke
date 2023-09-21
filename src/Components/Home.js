@@ -1,7 +1,6 @@
 import React from "react";
 import home_img from "../images/home_img.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
