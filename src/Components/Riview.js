@@ -1,5 +1,7 @@
 import React from 'react'
-
+import model1 from "../images/model1.jpeg"
+import model2 from "../images/model2.jpg"
+import model3 from "../images/model3.jpg"
 const Riview = () => {
   return (
     <section class="review" id="review">
@@ -7,14 +9,9 @@ const Riview = () => {
 
     <div class="box-container">
       <div class="box">
-        <img src="images/model1.jpeg" alt="" />
+        <img src={model1} alt="" />
         <h3>Flar Jackmen</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
+       
         <p class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis
@@ -24,13 +21,9 @@ const Riview = () => {
       </div>
 
       <div class="box">
-        <img src="images/model2.jpg" alt="" />
+        <img src={model2} alt="" />
         <h3>Bella Aner</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-        </div>
+        
         <p class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis
@@ -40,15 +33,9 @@ const Riview = () => {
       </div>
 
       <div class="box">
-        <img src="images/model3.jpg" alt="" />
+        <img src={model3} alt="" />
         <h3>Max Neven</h3>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
+        
         <p class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           sapiente nihil aperiam? Repellat sequi nisi aliquid perspiciatis

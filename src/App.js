@@ -3,13 +3,13 @@ import Home from "./Components/Home.js";
 import Icons from "./Components/Icons.js";
 import Services from "./Components/Services.js";
 import About from "./Components/About.js";
-import Doctors from "./Components/Doctors.js";
+import Team from "./Components/Team.js";
 import Riview from "./Components/Riview.js";
 import Blogs from "./Components/Blogs.js";
 import Footer from "./Components/Footer.js";
 import BarChart from "./Components/Charts/BarChart.js";
 import PieCharts from "./Components/Charts/PieCharts.js";
-
+import poster from "./images/poster.png"
 function App() {
   return (
     <div className="App">
@@ -20,9 +20,12 @@ function App() {
       <PieCharts />
       <Services />
       <About />
-      <Doctors />
-      <Riview />
       <Blogs />
+      <Team />
+      <Riview />
+      <div className="poster">
+        <img src={poster} alt=""/>
+      </div>
       <Footer />
     </div>
   );

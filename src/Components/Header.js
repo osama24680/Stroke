@@ -1,25 +1,25 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-      {/* <Link class="logo">
+      <p class="logo">
         <i class="uil uil-heartbeat"></i>STROCK PREDICTION
-      </Link> */}
+      </p>
       <div id="menu-bar" class="uil uil-bars"></div>
       <nav class="navbar">
-        {/* <Link>home</Link>
+        <a href="#home">home</a>
         <a
           target="_blanck"
-          href="https://studentaast-my.sharepoint.com/:p:/g/personal/o_m_mohamed1_student_aast_edu/EYhv8ZGJyxBAsOfOPwccpjcBQQq6le_IJ_Z2rji-AGTsSg?e=zW1dkK"
+          href="https://www.canva.com/design/DAFvAH95Yyw/VAOn8MGL0lmhFS_q26UjeQ/edit"
         >
           presentation
         </a>
-        <a href="#services">services</a>
+        <a href="#services">statistics</a>
         <a href="#about">about</a>
-        <a href="#doctors">doctors</a>
+        <a href="#blogs">blogs</a>
+        <a href="#doctors">team</a>
         <a href="#review">review</a>
-        <a href="#blogs">blogs</a> */}
+      
       </nav>
     </header>
   );

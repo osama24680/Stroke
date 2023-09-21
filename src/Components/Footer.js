@@ -6,12 +6,12 @@ const Footer = () => {
       <div class="box-container">
         <div class="box">
           <h3>quick links</h3>
-          {/* <a href="#home">
+          <a href="#home">
             {" "}
             <i class="fas fa-chevron-right"></i> home{" "}
           </a>
           <a href="#services">
-            <i class="fas fa-chevron-right"></i> services
+            <i class="fas fa-chevron-right"></i> statistics
           </a>
           <a href="#about">
             {" "}
@@ -19,12 +19,9 @@ const Footer = () => {
           </a>
           <a href="#doctors">
             {" "}
-            <i class="fas fa-chevron-right"></i> doctors{" "}
+            <i class="fas fa-chevron-right"></i> team{" "}
           </a>
-          <a href="#book">
-            {" "}
-            <i class="fas fa-chevron-right"></i> book{" "}
-          </a>
+
           <a href="#review">
             {" "}
             <i class="fas fa-chevron-right"></i> review{" "}
@@ -32,60 +29,32 @@ const Footer = () => {
           <a href="#blogs">
             {" "}
             <i class="fas fa-chevron-right"></i> blogs{" "}
-          </a> */}
-        </div>
-
-        <div class="box">
-          <h3>our services</h3>
-          {/* <a href="#footer">
-            <i class="fas fa-chevron-right"></i> dental care
           </a>
-          <a href="#footer">
-            <i class="fas fa-chevron-right"></i> message therapy
-          </a>
-          <a href="#footer">
-            <i class="fas fa-chevron-right"></i> cardioloty
-          </a>
-          <a href="#footer">
-            {" "}
-            <i class="fas fa-chevron-right"></i> diagnosis{" "}
-          </a>
-          <a href="#footer">
-            <i class="fas fa-chevron-right"></i> ambulance service
-          </a> */}
         </div>
 
         <div class="box">
           <h3>contact info</h3>
-          {/* <a href="#">
+          <a href="https://wa.link/cn5178">
             {" "}
             <i class="fas fa-phone"></i> +20 110 129 8422{" "}
           </a>
-          <a href="A.h1932232@gmail.com">
-            <i class="fas fa-envelope"></i> A.h1932232@gmail.com
+          <a href="mayarmagdy609@gmail.com">
+            <i class="fas fa-envelope"></i> mayarmagdy609@gmail.com
           </a>
-          <a href="#">
-            <i class="fas fa-map-marker-alt"></i> Eg, Alex - Asafra
-          </a> */}
         </div>
 
         <div class="box">
           <h3>follow us</h3>
-          {/* <a href="https://www.facebook.com/profile.php?id=100005745556269">
-            <i class="fab fa-facebook-f"></i> facebook
+          <a href="https://www.facebook.com/mayar.magdy.5872">facebook</a>
+
+          <a href="https://www.linkedin.com/in/mayar-magdy-morkos-00a63022a/">
+            <i class="fab fa-instagram"></i> linked in
           </a>
-          <a href="#">
-            {" "}
-            <i class="fab fa-github"></i> github{" "}
-          </a>
-          <a href="https://www.instagram.com/ahmed.hesham2232/">
-            <i class="fab fa-instagram"></i> instagram
-          </a> */}
         </div>
       </div>
 
       <div class="credit">
-        created by <span>ِD.T</span> | all rights reserved
+        created by <span>ِM.M</span> | all rights reserved
       </div>
     </section>
   );

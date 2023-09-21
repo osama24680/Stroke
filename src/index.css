@@ -105,6 +105,7 @@ header{
 header .logo{
     font-size:2.5rem;
     color:var(--black);
+    cursor: pointer;
 }
 header .logo i{
     color:var(--green);
@@ -202,7 +203,7 @@ header .navbar a:hover{
 .box_allContainer{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -284,7 +285,7 @@ header .navbar a:hover{
 /* ============---------doctors-------========= */
 .doctors .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap:2rem;
 }
 
@@ -298,7 +299,7 @@ header .navbar a:hover{
 }
 
 .doctors .box-container .box img{
-    height: 20rem;
+    width: 100%;
     border:var(--border);
     border-radius: .5rem;
     margin-top: 1rem;
@@ -554,8 +555,13 @@ header .navbar a:hover{
     color:var(--green);
 }
 
-
-
+.poster{
+    width: 85%;
+    margin: auto;
+}
+.poster img{
+    width: 100%;
+}
 
 
 
